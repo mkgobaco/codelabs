@@ -6,6 +6,18 @@ import { Component } from '@angular/core';
   template: `<h1>Hello World!</h1>`,
   styleUrls: ['./app.component.css'],
 })
+
+
+/*
+// Will Error when uncommented.
+@Component({
+  standalone: true,
+  selector: 'app-foobar',
+  template: `<h1>Foo World!</h1>`,
+  styleUrls: ['./app.component.css'],
+})
+  */
+
 export class AppComponent {
   title = 'homes';
 }
